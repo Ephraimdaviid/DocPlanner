@@ -1,0 +1,501 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  padding: 20px 0;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  padding: 9px;
+  gap: 10px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+li a:hover {
+  background-color: #00b39b;
+}
+
+#about {
+  color: #00b39b;
+}
+
+#dept {
+  color: #ababab;
+}
+
+.leadsection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 8rem;
+}
+
+.para {
+  color: #00b39b;
+  font-size: 40px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+  padding-top: 20px;
+}
+
+.twoparagraphs {
+  display: flex;
+  padding-left: 260px;
+  padding-right: 280px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+  color: #747474;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.3;
+}
+
+.patience {
+  background-color: #00ccb1;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.all {
+  padding: 20px;
+}
+
+.all h2 {
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  margin: 0.3em 0;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.9px;
+  margin-bottom: 11px;
+}
+
+.all p {
+  font-size: 17px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+select {
+  background-color: #00ccb1;
+  text-decoration: underline;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 21px;
+  color: white;
+}
+
+option:hover {
+  background-color: yellow;
+}
+
+.select1 {
+  margin-top: 120px;
+}
+
+.doctor {
+  background-color: #3d83df;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.two {
+  background-color: #3d83df;
+  color: white;
+}
+
+.doc {
+  padding: 20px;
+}
+
+.doc h2 {
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  margin: 0.3em 0;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.9px;
+  margin-bottom: 11px;
+}
+
+.doc p {
+  font-size: 17px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+.select2 {
+  margin-top: 120px;
+}
+
+.hospital {
+  background-color: #000;
+  border-radius: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.three {
+  background-color: #000;
+  color: white;
+}
+
+#three {
+  margin-bottom: 10px;
+}
+
+.fa-h-square {
+  color: white;
+}
+.hospitall {
+  padding: 20px;
+  margin-top: 25px;
+}
+
+.hospital h2 {
+  font-size: 27px;
+  font-weight: 400;
+  color: white;
+  margin: 0.3em 0;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: 0.9px;
+  margin-bottom: 11px;
+}
+
+.hospital p {
+  font-size: 17px;
+  color: white;
+  font-family: "Work Sans", sans-serif;
+}
+
+select3 {
+  text-decoration: underline;
+  border: none;
+  font-family: "Work Sans", sans-serif;
+  font-size: 21px;
+  margin-top: 30px;
+}
+
+.select3 {
+  margin-top: 80px;
+}
+
+.forsection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 3.75rem auto 2.5rem;
+  color: #fff;
+  position: relative;
+}
+
+.logo {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  margin-right: 70px;
+  gap: 10px;
+  width: 30%;
+}
+
+.what {
+  color: #00b39b;
+  font-family: "Work Sans", sans-serif;
+  font-size: 22.75px;
+  margin-left: 100px;
+  width: 178.79px;
+  height: 274.33px;
+  line-height: 30px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-around;
+}
+
+.white {
+  background-color: #fff;
+  margin-top: 70px;
+  height: 220px;
+  width: 220px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.white h2 {
+  color: #00b39b;
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.white p {
+  color: #747474;
+  font-size: 11px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+.visit {
+  background-color: #fff;
+  margin-top: 50px;
+  height: 220px;
+  width: 220px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.visit h2 {
+  color: #00b39b;
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 10px;
+}
+
+.visit p {
+  color: #747474;
+  font-size: 11px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+
+.month {
+  background-color: #fff;
+  height: 220px;
+  width: 220px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 50px;
+}
+
+.month h2 {
+  color: #00b39b;
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 30px;
+}
+
+.month p {
+  color: #747474;
+  font-size: 11px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+
+.doctors {
+  background-color: #fff;
+  height: 220px;
+  width: 220px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 2px;
+  margin-top: 30px;
+}
+
+.doctors h2 {
+  color: #00b39b;
+  font-size: 25px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 30px;
+}
+
+.doctors p {
+  color: #747474;
+  font-size: 11px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 10px;
+}
+
+.country {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d0faf4;
+  margin-top: 70px;
+  justify-items: center;
+}
+
+.section4fourparts {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.section4header {
+  padding-top: 170px;
+}
+
+.section4header p {
+  color: #747474;
+  font-family: "Work Sans", sans-serif;
+  font-size: 15px;
+  padding-top: 30px;
+}
+
+.section4header h2 {
+  color: #00b39b;
+  font-family: "Work Sans", sans-serif;
+  font-size: 30px;
+}
+
+.improve {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.improve h2 {
+  color: #00b39b;
+  font-size: 30px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.improve p {
+  margin-top: 30px;
+  color: #747474;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  line-height: 1.714;
+}
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 100px;
+}
+.section6 .container {
+  width: 80%;
+  margin: 0 auto;
+}
+.countries img {
+  width: 100%;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: "space-between";
+  align-items: center;
+  margin-top: 7px;
+}
+
+.card-footer:hover {
+  transition: 0.5s;
+  padding: 5px;
+}
+
+.card-footer p {
+  color: #747474;
+  font-size: 16px;
+  font-family: Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+button {
+  gap: 2cm;
+  justify-content: center;
+  background: #3d83df;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+  margin-left: 20px;
+  padding: 7px;
+}
+
+.sound {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.sound h1 {
+  font-size: 2.142em;
+  color: #333;
+  margin-bottom: 0.75em;
+  font-family: "Work Sans", sans-serif;
+  letter-spacing: -0.3px;
+  font-weight: 300;
+}
+
+.section7 button {
+  margin-left: 70px;
+  background-color: #3d83df;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  border-radius: 4px;
+  border: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 12px;
+}
+
+.end {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.end p {
+  color: #ababab;
+  font-size: 13px;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 20px;
+}
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+span {
+  color: #ababab;
+}
